@@ -1,8 +1,7 @@
-# Marco Cauci
 # Coursera - course: Getting and Cleaning Data
 # script for course project 
-
 library(dplyr)
+
 # 1: Merging the training and testing set
 fileTrain<-"./UCI HAR Dataset/train/X_train.txt"
 fileActTrain<-"./UCI HAR Dataset/train/y_train.txt"
