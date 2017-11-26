@@ -62,6 +62,5 @@ data_group<-group_by(data_select, Subject, Activity)
 avg_group<-summarise_each(data_group, funs(mean))
 rm("data_select")
 rm("data_group")
-write.csv(avg_group, "getAndCleanSubmit.csv", row.names = FALSE)
 
 
